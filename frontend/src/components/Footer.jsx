@@ -69,10 +69,40 @@ const Footer = () => {
                             Connect
                         </h6>
                         <div className="d-flex gap-3">
-                            <i className="bi bi-whatsapp fs-5"></i>
-                            <i className="bi bi-telegram fs-5"></i>
-                            <i className="bi bi-envelope fs-5"></i>
+
+                            {/* WhatsApp */}
+                            <a
+                                href="https://wa.me/917972908951"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-light fs-5"
+                                title="WhatsApp"
+                            >
+                                <i className="bi bi-whatsapp"></i>
+                            </a>
+
+                            {/* Telegram (optional link) */}
+                            <a
+                                href="https://t.me/mrsarfrazbagwan"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-light fs-5"
+                                title="Telegram"
+                            >
+                                <i className="bi bi-telegram"></i>
+                            </a>
+
+                            {/* Email */}
+                            <a
+                                href="mailto:sarfrazbagwan151@gmail.com"
+                                className="text-light fs-5"
+                                title="Email"
+                            >
+                                <i className="bi bi-envelope"></i>
+                            </a>
+
                         </div>
+
                     </div>
                 </div>
 
@@ -85,7 +115,7 @@ const Footer = () => {
                     }}
                 >
                     <small className="text-warning fw-semibold d-block mb-2">
-                        Hadith – Musnad al-Bazzar (2928)  
+                        Hadith – Musnad al-Bazzar (2928)
                         Graded: Hasan (Albani – Sahih al-Targhib 741)
                     </small>
 
