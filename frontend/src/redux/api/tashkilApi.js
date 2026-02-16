@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const tashkilApi = createApi({
     reducerPath: "tashkilApi",
     baseQuery: fetchBaseQuery({
-        baseUrl: "http://localhost:4000/api/v1/tashkil",
+        baseUrl: "https://tahrik-e-imaan-jeur.onrender.com/api/v1/tashkil" || "http://localhost:4000/api/v1/tashkil",
         credentials: "include"
     }),
     tagTypes: ["Tashkil"],

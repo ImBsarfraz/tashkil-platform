@@ -4,7 +4,7 @@ import { userLoggedIn, userLoggedOut } from "../slices/authSlice";
 export const authApi = createApi({
     reducerPath: "authApi",
     baseQuery: fetchBaseQuery({
-        baseUrl: "http://localhost:4000/api/v1/auth",
+        baseUrl: "https://tahrik-e-imaan-jeur.onrender.com/api/v1/auth" || "http://localhost:4000/api/v1/auth",
         credentials: "include"
     }),
     tagTypes: ["User"],

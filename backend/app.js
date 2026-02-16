@@ -18,7 +18,7 @@ const app = express();
 const _dirname = path.resolve();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://tahrik-e-imaan-jeur.onrender.com" || "http://localhost:5173",
     credentials: true
 }));
 app.use(express.json());
